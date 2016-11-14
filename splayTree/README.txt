@@ -1,0 +1,3 @@
+Author: Cameron MacDonald
+
+When constructing trees so that they will be taller when implemented, the splay tree algorithm runs significantly faster. My test.py file will demonstrate this. However, when running splay against BST with a similar tree structure, the time is marginal, and sometimes can be worse when I run it. Splay only outdoes the BST algorithm once tall trees are introduced as splay restructures the tree during insertion.
